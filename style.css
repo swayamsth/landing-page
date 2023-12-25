@@ -55,3 +55,63 @@ a:hover{
 .logo{
     font-size: 48px;
 }
+
+.logo:hover{
+    cursor: default;
+}
+
+/* SECTION 1 */
+
+#imgbar{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 3rem;
+    border-radius: 25px;
+    background-color: #FAFAF5;
+}
+
+section .dog img{
+    height: auto;
+    width: 450px;
+}
+
+section .text p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+section .text .bold{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+section .text p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+
+section .text .btn{
+    font-family: 'Inter', sans-serif;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 10rem;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+.btn-color{
+    background-color: #426B1F;
+    color: #FAFAF5;
+    border: none;
+}
+
+.btn-color:hover{
+    cursor: pointer;
+    background-color: #92AD89;
+}
