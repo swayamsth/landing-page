@@ -164,3 +164,21 @@ section .text .btn{
     opacity: 75%;
 }
 
+/* QUOTE */
+
+#quote{
+    box-sizing: border-box;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 1rem;
+    padding: 3rem;
+    border-radius: 25px;
+    background-color: #FAFAF5;
+}
+
+.quotation p{
+    display: flex;
+    justify-content: flex-end;
+}
