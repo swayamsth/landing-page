@@ -172,7 +172,7 @@ section .text .btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 1rem;
+    margin: 4rem 1rem 0 1rem;
     padding: 3rem;
     border-radius: 25px;
     background-color: #FAFAF5;
@@ -181,4 +181,17 @@ section .text .btn{
 .quotation p{
     display: flex;
     justify-content: flex-end;
+}
+
+/* VECTOR WHALE */
+
+#vector-whale img{
+    height: auto;
+    width: 300px;
+}
+
+.right-side img{
+    display: flex;
+    margin-left: auto;
+    padding-right: 1rem;
 }
