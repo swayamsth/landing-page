@@ -115,3 +115,52 @@ section .text .btn{
     cursor: pointer;
     background-color: #92AD89;
 }
+
+/* IMG COLLECTION */
+
+#gallery .bold{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    margin: 2rem;
+}
+
+.img-collection{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.img-collection img{
+    height: auto;
+    width: 350px;
+    padding: 0 3rem;
+}
+
+.img-collection .btn{
+    font-family: 'Inter', sans-serif;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 10rem;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+.btn-color-2{
+    margin: 0 auto;
+    background: none;
+    color: black;
+    border: 2px solid;
+    opacity: 50%;
+}
+
+.btn-color-2:hover{
+    cursor: pointer;
+    background-color: #426B1F;
+    border: none;
+    color: white;
+    opacity: 75%;
+}
+
