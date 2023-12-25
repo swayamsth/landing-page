@@ -195,3 +195,16 @@ section .text .btn{
     margin-left: auto;
     padding-right: 1rem;
 }
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+    background-color: #426B1F;
+    color: white;
+}
